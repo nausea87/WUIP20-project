@@ -1,0 +1,32 @@
+/* === Typography === */
+
+@font-face {
+  font-family: "Amatic";
+  src: local("Amatic"), url("/assets/fonts/Amatic-Bold.woff2") format("woff2"),
+    url("/assets/fonts/Amatic-Bold.woff") format("woff");
+  font-display: block;
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Amatic";
+  src: local("Amatic"),
+    url("/assets/fonts/Amatic-Regular.woff2") format("woff2"),
+    url("/assets/fonts/Amatic-Regular.woff") format("woff");
+  font-display: block;
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+.text-box p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* 
+.full-page-item-two .text-box h1 {
+  font: normal normal bold;
+  letter-spacing: 0;
+  opacity: 1;
+} */

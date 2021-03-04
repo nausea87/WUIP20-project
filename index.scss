@@ -1,0 +1,284 @@
+:root {
+    --headerandfooter: #364142; /* Header and footer BG */
+    --green: #9ef700; /* Header h1 */
+    --full-page-color: #dad7cd; /* Rest of the page BG */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 24px;
+    body {
+        font-family: 'Amatic';
+        margin: 0;
+        .text-box {
+            p {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        }
+    }
+}
+
+@font-face {
+    font-family: 'Amatic';
+    src: local('Amatic'), url('/assets/fonts/Amatic-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Amatic-Bold.woff') format('woff');
+    font-display: block;
+    font-weight: 700;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Amatic';
+    src: local('Amatic'),
+        url('/assets/fonts/Amatic-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Amatic-Regular.woff') format('woff');
+    font-display: block;
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--headerandfooter);
+
+    img {
+        position: absolute;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        mix-blend-mode: lighten;
+        opacity: 1;
+        height: 100vh;
+    }
+    .header-text-box {
+        margin-top: -75px;
+        .date {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--full-page-color);
+        }
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+            font-size: 3rem;
+            color: var(--green);
+        }
+        .header-info {
+            display: flex;
+            text-align: center;
+            color: var(--full-page-color);
+        }
+    }
+}
+
+.full-page-item-two {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    background-color: var(--full-page-color);
+    .text-box {
+        z-index: 2;
+        position: absolute;
+        display: block;
+        height: 100vh;
+        width: 100%;
+        h1 {
+            text-align: center;
+            font-size: 70px;
+            width: 750px;
+            margin-top: 50px;
+            margin-left: 50%;
+        }
+
+        h2 {
+            width: 630px;
+            margin-left: 55%;
+        }
+
+        p {
+            width: 542px;
+            margin-top: 0;
+            margin-left: 55%;
+        }
+    }
+    button {
+        z-index: 3;
+        margin-top: 300px;
+        margin-left: 450px;
+        border: solid 4px black;
+        font-family: 'DM Mono', monospace;
+        width: 218px;
+        height: 59px;
+        #biljetter-btn {
+            font-size: 24px;
+        }
+    }
+    img {
+        position: absolute;
+        width: 675px;
+        height: 315px;
+        margin-left: 100px;
+        margin-top: 400px;
+    }
+}
+
+.demo {
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#demo {
+    margin-top: -650px;
+    margin-left: 440px;
+}
+
+footer {
+    position: relative;
+    background-color: var(--headerandfooter);
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    height: 230px;
+    p {
+        display: flex;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 24px;
+        justify-content: center;
+        color: var(--full-page-color);
+    }
+    div {
+        display: flex;
+        justify-content: center;
+        img {
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            width: 85px;
+        }
+    }
+}
+
+////////////////////////////
+///////***MOBILE***////////
+////////////////////////////
+
+@media only screen and (max-width: 980px) {
+    html {
+        font-size: 14px;
+    }
+
+    header {
+        img {
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            object-fit: contain;
+            justify-content: center;
+            align-items: center;
+            mix-blend-mode: lighten;
+            opacity: 1;
+        }
+    }
+
+    .full-page-item-two {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+
+        .text-box {
+            margin-top: 38px;
+            margin-left: -50px;
+            width: 250px;
+            height: 361px;
+            opacity: 1;
+
+            h1 {
+                margin-left: 130px;
+                width: 250px;
+                height: 32px;
+                text-align: left;
+                margin-top: 20px;
+                font-size: 25px;
+            }
+
+            h2 {
+                left: 72px;
+                width: 240px;
+                height: 143px;
+                font-family: 'Segoe UI';
+                text-align: left;
+                font: normal normal 600 12px/16px Segoe UI;
+                letter-spacing: 0;
+                opacity: 1;
+            }
+
+            p {
+                display: block;
+                margin-top: -50px;
+                left: 72px;
+                width: 240px;
+                height: 231px;
+                font-family: 'Segoe UI';
+                text-align: left;
+                font: normal normal normal 10px/18px Segoe UI;
+                letter-spacing: 0px;
+                opacity: 1;
+            }
+        }
+
+        img {
+            width: 224px;
+            height: 105px;
+            margin-left: 50px;
+            margin-top: 500px;
+        }
+
+        button {
+            margin-top: 650px;
+            margin-left: 140px;
+            height: 35px;
+            width: 125px;
+            border: solid 2px black;
+        }
+
+        .demo {
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #demo {
+            margin-top: 720px;
+            margin-left: -130px;
+        }
+    }
+
+    footer {
+        p {
+            font-size: 0.8rem;
+        }
+        div {
+            img {
+                height: 50px;
+                width: 55px;
+            }
+        }
+    }
+}
