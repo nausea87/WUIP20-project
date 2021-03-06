@@ -1,0 +1,39 @@
+footer {
+    position: relative;
+    background-color: var(--headerandfooter);
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    height: 230px;
+    p {
+        display: flex;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 24px;
+        justify-content: center;
+        color: var(--full-page-color);
+    }
+    div {
+        display: flex;
+        justify-content: center;
+        img {
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            width: 85px;
+        }
+    }
+
+    @media (max-width: 980px) {
+        footer {
+            p {
+                font-size: 0.8rem;
+            }
+            div {
+                img {
+                    height: 50px;
+                    width: 55px;
+                }
+            }
+        }
+    }
+}
