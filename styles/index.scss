@@ -1,12 +1,4 @@
-:root {
-    --headerandfooter: #364142; /* Header and footer BG */
-    --green: #9ef700; /* Header h1 */
-    --full-page-color: #dad7cd; /* Rest of the page BG */
-}
-
-* {
-    box-sizing: border-box;
-}
+// MAIN
 
 html {
     font-size: 24px;
@@ -19,27 +11,6 @@ html {
             }
         }
     }
-}
-
-@font-face {
-    font-family: 'Amatic';
-    src: local('Amatic'), url('/assets/fonts/Amatic-Bold.woff2') format('woff2'),
-        url('/assets/fonts/Amatic-Bold.woff') format('woff');
-    font-display: block;
-    font-weight: 700;
-    font-style: normal;
-    font-display: auto;
-}
-
-@font-face {
-    font-family: 'Amatic';
-    src: local('Amatic'),
-        url('/assets/fonts/Amatic-Regular.woff2') format('woff2'),
-        url('/assets/fonts/Amatic-Regular.woff') format('woff');
-    font-display: block;
-    font-weight: normal;
-    font-style: normal;
-    font-display: auto;
 }
 
 header {
@@ -85,6 +56,8 @@ header {
     }
 }
 
+// Page 2
+
 .full-page-item-two {
     position: relative;
     width: 100%;
@@ -119,18 +92,18 @@ header {
             margin-left: 55%;
         }
     }
-    button {
-        z-index: 3;
-        margin-top: 300px;
-        margin-left: 450px;
-        border: solid 4px black;
-        font-family: 'DM Mono', monospace;
-        width: 218px;
-        height: 59px;
-        #biljetter-btn {
-            font-size: 24px;
-        }
-    }
+    // button {
+    //     z-index: 3;
+    //     margin-top: 300px;
+    //     margin-left: 450px;
+    //     border: solid 4px black;
+    //     font-family: 'DM Mono', monospace;
+    //     width: 218px;
+    //     height: 59px;
+    //     #biljetter-btn {
+    //     font-size: 24px;
+    //     }
+    // }
     img {
         position: absolute;
         width: 675px;
@@ -138,16 +111,15 @@ header {
         margin-left: 100px;
         margin-top: 400px;
     }
-}
+    // .demo {
+    //     font-size: 32px;
+    //     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    // }
 
-.demo {
-    font-size: 32px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#demo {
-    margin-top: -650px;
-    margin-left: 440px;
+    // #demo {
+    //     margin-top: -650px;
+    //     margin-left: 440px;
+    // }
 }
 
 footer {

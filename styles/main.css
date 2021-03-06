@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Amatic';
+    src: local('Amatic'), url('/assets/fonts/Amatic-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Amatic-Bold.woff') format('woff');
+    font-display: block;
+    font-weight: 700;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Amatic';
+    src: local('Amatic'),
+        url('/assets/fonts/Amatic-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Amatic-Regular.woff') format('woff');
+    font-display: block;
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+}
+
+* {
+    box-sizing: border-box;
+    --headerandfooter: #364142; /* Header and footer BG */
+    --green: #9ef700; /* Header h1 */
+    --full-page-color: #dad7cd; /* Rest of the page BG */
+}

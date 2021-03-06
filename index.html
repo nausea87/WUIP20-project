@@ -4,16 +4,16 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./index.scss" />
-        <link rel="stylesheet" href="./layout.scss" />
-        <title>Skogsfesten 2023</title>
+        <link rel="stylesheet" href="./styles/index.scss" />
+        <link rel="stylesheet" href="./styles/main.css" />
+        <title>Skogsfesten 2022</title>
     </head>
     <body>
-        <header class="header-content">
+        <header>
             <img
-                class="header-illustration-img"
+                class="header-img"
                 src="/assets/images/svg/main.svg"
-                alt="header-view-illustration"
+                alt="header-img"
             />
             <div class="header-text-box">
                 <p class="date">5 JUNI 2022</p>
@@ -29,46 +29,38 @@
                 </p>
             </div>
         </header>
-        <main>
-            <div class="full-page-item-two">
-                <button
-                    type="button"
-                    id="-biljetter-btn"
-                    onclick="clickButton()"
-                >
-                    Köp biljett
-                </button>
-                <p class="demo" id="demo"></p>
-                <img
-                    class="hare-and-fox-img"
-                    src="./assets/images/svg/djur.svg"
-                    alt="hareochrav-img"
-                />
 
-                <div class="text-box">
-                    <h1>SKOGSFESTEN I FÖRMÅN TILL DJUREN</h1>
-                    <h2>
-                        För 10 år sedan arrangerades Skogsfesten för första
-                        gången vid torpet Fåfängerud i Dalsland och nu får
-                        äntligen Göteborg chansen att ta del av en RIKTIG
-                        Skogsfest.
-                    </h2>
-                    <p>
-                        Nytt för i år är att Skogsfesten flyttar från Dalsland
-                        för att gästa Apslätten i Göteborg. Skogsfesten i
-                        Göteborg blir en dagsfest. Besökarna bjuds på musik,
-                        konst och mat från lokala aktörer - där ibland flera av
-                        Göteborgs välkända microbryggerier. Biljetten kostar en
-                        liten slant, men intäkterna går till insamling djur och
-                        natur, så en del av summan skänker vi bland annat till
-                        Djurens Vänner. På den här festivalen är både djur och
-                        barn välkomna! <br /><br />När du har köpt biljett,
-                        skickar vi hem ett personligt festivalband som gör det
-                        möjligt att komma och gå som man vill under dagen.
-                    </p>
-                </div>
+        <div class="full-page-item-two">
+            <button type="button" id="-biljetter-btn">Köp biljett!</button>
+            <p class="demo" id="demo"></p>
+            <img
+                class="hare-and-fox-img"
+                src="./assets/images/svg/djur.svg"
+                alt="hareochrav-img"
+            />
+
+            <div class="text-box">
+                <h1>SKOGSFESTEN I FÖRMÅN TILL DJUREN</h1>
+                <h2>
+                    För 10 år sedan arrangerades Skogsfesten för första gången
+                    vid torpet Fåfängerud i Dalsland och nu får äntligen
+                    Göteborg chansen att ta del av en RIKTIG Skogsfest.
+                </h2>
+                <p>
+                    Nytt för i år är att Skogsfesten flyttar från Dalsland för
+                    att gästa Apslätten i Göteborg. Skogsfesten i Göteborg blir
+                    en dagsfest. Besökarna bjuds på musik, konst och mat från
+                    lokala aktörer - där ibland flera av Göteborgs välkända
+                    microbryggerier. Biljetten kostar en liten slant, men
+                    intäkterna går till insamling djur och natur, så en del av
+                    summan skänker vi bland annat till Djurens Vänner. På den
+                    här festivalen är både djur och barn välkomna!
+                    <br /><br />När du har köpt biljett, skickar vi hem ett
+                    personligt festivalband som gör det möjligt att komma och gå
+                    som man vill under dagen.
+                </p>
             </div>
-        </main>
+        </div>
 
         <footer>
             <p>Besök oss gärna!</p>
@@ -77,9 +69,6 @@
                 <img src="./assets/images/svg/fbikon.svg" alt="igicon" />
             </div>
         </footer>
-
-        <script src="./js/index.js"></script>
-        <script src="./js/button.js"></script>
-        <script src="./js/queryparam.js"></script>
+        <script src="./assets/js/index.js"></script>
     </body>
 </html>
