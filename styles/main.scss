@@ -1,13 +1,13 @@
 html {
     font-size: 24px;
-    // cursor: default; /* 1 */
-    // line-height: 1.5; /* 2 */
-    // -moz-tab-size: 4; /* 3 */
-    // tab-size: 4; /* 3 */
-    // -webkit-tap-highlight-color: transparent /* 4 */;
-    // -ms-text-size-adjust: 100%; /* 5 */
-    // -webkit-text-size-adjust: 100%; /* 5 */
-    // word-break: break-word; /* 6 */
+    cursor: default; /* 1 */
+    line-height: 1.5; /* 2 */
+    -moz-tab-size: 4; /* 3 */
+    tab-size: 4; /* 3 */
+    -webkit-tap-highlight-color: transparent /* 4 */;
+    -ms-text-size-adjust: 100%; /* 5 */
+    -webkit-text-size-adjust: 100%; /* 5 */
+    word-break: break-word; /* 6 */
 
     body {
         font-family: 'Amatic';
@@ -15,7 +15,7 @@ html {
 
         .text-box {
             p {
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family: 'Segoe UI';
             }
         }
 
