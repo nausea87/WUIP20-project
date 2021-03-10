@@ -53,6 +53,15 @@ header {
             align-items: center;
             mix-blend-mode: lighten;
             opacity: 1;
+            padding: 1rem;
+        }
+        .header-text-box {
+            .title {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .header-info {
+            }
         }
     }
 }

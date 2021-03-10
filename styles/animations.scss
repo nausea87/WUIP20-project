@@ -1,8 +1,8 @@
 .header-img {
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 4s; /* Firefox < 16 */
-    -o-animation: fadein 4s; /* Opera < 12.1 */
-    animation: fadein 4s;
+    -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 10s; /* Firefox < 16 */
+    -o-animation: fadein 10s; /* Opera < 12.1 */
+    animation: fadein 10s;
 }
 
 @keyframes fadein {
@@ -56,3 +56,6 @@
         font-size: 0.8rem;
     }
 }
+
+// Transition Header p-tag so show squirrel?
+// Social media effects
