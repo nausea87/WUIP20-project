@@ -4,19 +4,38 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/main.scss" />
         <title>Sign up!</title>
     </head>
-    <body>
-        <p class="ticket-info">Anmäl dig till Skogsfestens nyhetsbrev.</p>
-
+    <body class="form">
+        <img
+            class="gris"
+            src="./assets/images/svg/inactive/gris.svg"
+            alt="gris"
+            height="420px"
+            width="450px"
+        />
+        <h2 class="ticket-info">Anmäl dig till Skogsfestens nyhetsbrev.</h2>
+        <label for="firstname">Vad är ditt förnamn?</label>
+        <input
+            type="firstname"
+            id="firstname"
+            name="firstname"
+            placeholder="your first name"
+            value=""
+        />
+        <label for="email">Ange din e-postadress</label>
         <input
             type="email"
             id="email"
             name="email"
             placeholder="your e-mail adress"
             value=""
-        />
+        /><br />
 
-        <label for="email">Ange din e-postadress</label>
+        <button class="register">Skicka</button>
+        <a href="index.html">
+            <button class="home-btn">Tillbaka</button>
+        </a>
     </body>
 </html>
