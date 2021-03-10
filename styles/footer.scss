@@ -3,8 +3,8 @@ footer {
     background-color: var(--headerandfooter);
     display: flex;
     flex-direction: column;
-    padding: 32px;
-    height: 230px;
+    padding: 10px;
+    height: auto;
     p {
         display: flex;
         font-family: 'Segoe UI', sans-serif;
@@ -12,9 +12,18 @@ footer {
         justify-content: center;
         color: var(--full-page-color);
     }
-    div {
+    .form-button {
+        border: 1px solid black;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        margin-left: 3rem;
+        //fix click border
+    }
+    .social-media {
         display: flex;
         justify-content: center;
+
         img {
             justify-content: center;
             align-items: center;
@@ -34,6 +43,14 @@ footer {
                     width: 55px;
                 }
             }
+        }
+        .form-button {
+            width: 100px;
+            height: 30px;
+            margin-bottom: 2rem;
+            margin-left: 9rem;
+            border: 1px solid black;
+            border-radius: 5%;
         }
     }
 }
