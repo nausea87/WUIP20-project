@@ -40,6 +40,13 @@ header {
             text-align: center;
             color: var(--full-page-color);
         }
+
+        .greeting {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            color: var(--full-page-color);
+        }
     }
 }
 @media (max-width: 980px) {

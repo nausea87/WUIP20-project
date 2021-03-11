@@ -37,6 +37,15 @@
                     SKOGEN. MILJÖ- ,MUSIK OCH<br />
                     KONSTFESTIVALEN
                 </p>
+                <br />
+                <p class="greeting">
+                    <!-- <span class="block-reveal first">
+                        <span class="text"></span>
+                    </span> -->
+                    <span class="block-reveal second welcome">
+                        <span class="text dynamic-name"></span>
+                    </span>
+                </p>
             </div>
         </header>
 
@@ -46,26 +55,17 @@
                 src="./assets/images/svg/djur.svg"
                 alt="hareandfox"
             />
-            <!-- <h1>
-                <span class="blick-reveal first">
-                    <span class="text">Välkommen</span>
-                </span>
-                <span class="blick-reveal second welcome">
-                    <span class="text dynamic-name"></span>
-                </span>
-            </h1> -->
 
             <button class="btn" type="button" id="biljetter-btn">
                 Köp biljett
-                <!-- <a class="" href="form.html"></a> -->
             </button>
 
             <div class="text-box">
                 <h1>SKOGSFESTEN I FÖRMÅN TILL DJUREN</h1>
                 <h2>
-                    För 10 år sedan arrangerades Skogsfesten för första gången
+                    <!-- För 10 år sedan arrangerades Skogsfesten för första gången
                     vid torpet Fåfängerud i Dalsland och nu får äntligen
-                    Göteborg chansen att ta del av en RIKTIG Skogsfest.
+                    Göteborg chansen att ta del av en RIKTIG Skogsfest. -->
                 </h2>
                 <p>
                     Nytt för i år är att Skogsfesten flyttar från Dalsland för
@@ -88,8 +88,39 @@
                 alt="skog"
             />
             <div class="text-box" id="full-page-text">
-                <h1>ARRANGÖR</h1>
-                <p>
+                <!-- <h1>Arrangör</h1> -->
+                <h1>Intresseanmälan och nyhetsbrev!</h1>
+                <form action="index.html" method="get">
+                    <label for="name">name:</label>
+                    <input
+                        type="name"
+                        id="name"
+                        name="name"
+                        width="100px"
+                        placeholder="Vad heter du?"
+                    />
+                    <br />
+                    <label for="email">e-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Vad är din email?"
+                    />
+                    <br />
+                    <label for="tel">phone:</label>
+                    <input
+                        type="tel"
+                        id="tel"
+                        name="tel"
+                        placeholder="Telefonnummer"
+                    />
+                    <br />
+                    <button class="register-button" type="submit">
+                        Register
+                    </button>
+                </form>
+                <!-- <p>
                     Vi är den Ideella föreningen Djuren i Skogen, en grupp som
                     kommit samman ur vårt intresse för miljöarbete och kultur.
                     En del av oss har arbetat med festivalen i flertalet år,
@@ -100,21 +131,21 @@
                     att ha en så solidarisk, jämställd och jämlik fördelning
                     både på scen, bland konstnärer, aktivitetsledare och i allt
                     vårt eget arbete.
-                </p>
+                </p> -->
             </div>
         </div>
         <footer>
             <p>Besök oss gärna!</p>
-            <a href="form.html">
+            <!-- <a href="form.html">
                 <button class="form-button" type="button">Nyhetsbrev</button>
-            </a>
-            <!-- Fix link -->
-
+            </a> -->
             <div class="social-media">
                 <img src="./assets/images/svg/insta.svg" alt="fbicon" />
                 <img src="./assets/images/svg/fbikon.svg" alt="igicon" />
             </div>
         </footer>
         <script src="./assets/js/index.js"></script>
+        <script src="./assets/js/query.js"></script>
+        <!-- <script src="./assets/js/signup.js"></script> -->
     </body>
 </html>
