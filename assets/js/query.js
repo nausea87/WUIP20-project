@@ -1,25 +1,28 @@
 let urlParams = new URLSearchParams(window.location.search);
 
-const welcomeName = document.querySelector('.welcome');
-const nameFiller = document.querySelector('#name');
-const emailFiller = document.querySelector('#email');
+const welcome = document.querySelector('.welcome');
+const nameFiller = document.querySelector('#name'); 
+// const emailFiller = document.querySelector('#email'); // Doesn't do anything atm.
 const phoneFiller = document.querySelector('#tel');
 
 if (urlParams.has('name')) {
     let name = urlParams.get('name');
-    welcomeName.innerText += `Välkommen ${name}`;
+    let email = urlParams.get('email');
+    welcome.innerText += `Välkommen ${name} ${email}`;
     nameFiller.setAttribute('value', name);
 }
 
-if (urlParams.has('email')) {
-    let email = urlParams.get('email');
-    emailFiller.setAttribute('value', email);
-}
+// if (urlParams.has('email')) {
+//     let email = urlParams.get('email');
+//     emailFiller.setAttribute('value', email);
+// }
 
-if (urlParams.has('tel')) {
-    let tel = urlParams.get('tel');
-    phoneFiller.setAttribute('value', tel);
-}
+// if (urlParams.has('tel')) {
+//     let tel = urlParams.get('tel');
+//     phoneFiller.setAttribute('value', tel);
+// }
+
+// https://wuip20-project.netlify.app//index.html?name=&email=&tel=
 
 ////////////////////////////////////////////
 ////////////////////////////////////////////
@@ -47,14 +50,14 @@ if (urlParams.has('tel')) {
 //  const dynamicEmail = document.querySelector(".dynamic-email");
 //  const welcome = document.querySelector(".welcome");
 
-//  function getUrlParameter(name) {
-//      name = name.replace(/[\[]/,  "\\[").replace(/[\]]/,  "\\]");
-//      var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
-//      var results = regex.exec(location.search);
-//      return results === null
-//      ? ""
-//      : decodeURIComponent(results[1].replace(/\+/g, " "));
-//  }
+ function getUrlParameter(name) {
+     name = name.replace(/[\[]/,  "\\[").replace(/[\]]/,  "\\]");
+     var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+     var results = regex.exec(location.search);
+     return results === null
+     ? ""
+     : decodeURIComponent(results[1].replace(/\+/g, " "));
+ }
 
 //  function capitalize(string) {
 //      return string.charAt(0).toUpperCase() + string.slice(1);
