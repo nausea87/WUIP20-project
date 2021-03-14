@@ -4,6 +4,8 @@ Project with Evelina Bakos from IP Graphical Production & FORM at YRGO. Assignme
 
 [Skogsfesten 2022](https://wuip20-project.netlify.app/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/443ea262-d863-4ba7-a652-814c20de6fc2/deploy-status)](https://app.netlify.com/sites/wuip20-project/deploys)
+
 ## Code review
 
 1.
