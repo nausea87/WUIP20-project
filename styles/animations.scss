@@ -1,7 +1,9 @@
+// Header img fadein
+
 .header-img {
-    -webkit-animation: fadein 12s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 12s; /* Firefox < 16 */
-    -o-animation: fadein 12s; /* Opera < 12.1 */
+    -webkit-animation: fadein 12s;
+    -moz-animation: fadein 12s;
+    -o-animation: fadein 12s;
     animation: fadein 12s;
 }
 
@@ -14,7 +16,6 @@
     }
 }
 
-/* Firefox < 16 */
 @-moz-keyframes fadein {
     from {
         opacity: 0;
@@ -24,7 +25,6 @@
     }
 }
 
-/* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
     from {
         opacity: 0;
@@ -34,7 +34,6 @@
     }
 }
 
-/* Opera < 12.1 */
 @-o-keyframes fadein {
     from {
         opacity: 0;
@@ -48,13 +47,11 @@
 ////// Button ////////
 //////////////////////
 
-// .btn
 .register-button {
     opacity: 1;
     transition: 0.3s;
 }
 
-// .btn
 .register-button:hover {
     background-color: var(--headerandfooter);
     color: white;
@@ -74,6 +71,3 @@
     color: var(--headerandfooter);
     font-size: 1.1rem;
 }
-
-// Transition Header p-tag so show squirrel?
-// Social media effects

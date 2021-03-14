@@ -3,8 +3,8 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    height: 25vh;
-    p {
+    height: 30vh;
+    .auto-type {
         display: flex;
         font-family: 'Segoe UI', sans-serif;
         font-size: 24px;
@@ -23,30 +23,41 @@ footer {
         display: flex;
         justify-content: center;
 
-        img {
+        .icon {
             justify-content: center;
             align-items: center;
-            height: 80px;
-            width: 85px;
+            height: 70px;
+            width: 75px;
         }
-
-        img:hover {
-            font-size: 2rem;
-        }
+    }
+    .footer-info {
+        margin-left: 2rem;
+        font-size: 0.6rem;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     @media (max-width: 980px) {
-        footer {
-            p {
-                font-size: 0.8rem;
-            }
-            div {
-                img {
-                    height: 50px;
-                    width: 55px;
-                }
+        height: 20vh;
+
+        .auto-type {
+            font-size: 0.9rem;
+        }
+
+        .social-media {
+            .icon {
+                width: 60px;
+                height: 60px;
             }
         }
+
+        .footer-info {
+            margin-left: 2rem;
+            font-size: 0.5rem;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
         .form-button {
             width: 100px;
             height: 30px;
