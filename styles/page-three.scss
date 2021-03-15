@@ -24,7 +24,8 @@
         }
     }
     form {
-        width: 280px;
+        width: 400px;
+        border: 1px solid black ;
         label {
             font-family: 'Segoe UI';
         }
@@ -35,6 +36,8 @@
             border: 1px solid black;
             border-radius: 4px;
             margin: 3px;
+            background-color: #6D7C7C;
+            color: white;
         }
         .register-button {
             width: 100px;

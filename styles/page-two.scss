@@ -12,15 +12,22 @@
 
     .text-box {
         display: block;
+        height: 375px;
         margin-top: 50px;
         margin-bottom: 20px;
         margin-left: 50%;   
         margin-right: 10%;
+        border: 1px solid black;
+        border-radius: 5px;
+     
 
         h1.personal-greeting {
             text-align: center;
             font-family: 'Segoe UI';
-            font-size: 20px;
+            font-size: 24px;
+           
+            padding-bottom: 2rem;
+            
         }
 
         p {
@@ -28,6 +35,7 @@
             margin-right: 0.8rem;
             font-size: 18px;
         }
+       
     }
 
     // .btn {
@@ -63,6 +71,7 @@
             height: 58%;
             margin: 1rem 2rem 1rem 1rem;
             opacity: 1;
+         
 
             h1.personal-greeting {
                 text-align: center;
