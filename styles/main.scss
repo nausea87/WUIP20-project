@@ -1,13 +1,12 @@
 html {
-    font-size: 24px;
-    cursor: default; /* 1 */
-    line-height: 1.5; /* 2 */
-    -moz-tab-size: 4; /* 3 */
-    tab-size: 4; /* 3 */
-    -webkit-tap-highlight-color: transparent /* 4 */;
-    -ms-text-size-adjust: 100%; /* 5 */
-    -webkit-text-size-adjust: 100%; /* 5 */
-    word-break: break-word; /* 6 */
+    font-size: 18px;
+    // cursor: default; /* 1 */
+    // line-height: 1.5; /* 2 */
+    // -moz-tab-size: 4; /* 3 */
+    // tab-size: 4; /* 3 */
+    // -webkit-tap-highlight-color: transparent /* 4 */;
+    // // -webkit-text-size-adjust: 100%; /* 5 */
+    // word-break: break-word; /* 6 */
 
     body {
         font-family: 'Amatic';
@@ -16,6 +15,8 @@ html {
         .text-box {
             p {
                 font-family: 'Segoe UI';
+                font-size: 18px;
+
             }
         }
 
@@ -25,45 +26,45 @@ html {
     }
 }
 
-.form {
-    background-color: var(--full-page-color);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-bottom: 1px solid black;
-    height: 65vh;
-    width: auto;
+// .form {
+//     background-color: var(--full-page-color);
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     border-bottom: 1px solid black;
+//     height: 65vh;
+//     width: auto;
 
-    margin-right: 10px;
+//     margin-right: 10px;
 
-    .gris {
-        z-index: -1;
-        position: absolute;
-        margin: 6rem 2rem 2rem 5rem;
-        opacity: 100;
-    }
+//     .gris {
+//         z-index: -1;
+//         position: absolute;
+//         margin: 6rem 2rem 2rem 5rem;
+//         opacity: 100;
+//     }
 
-    h2 {
-        text-align: center;
-    }
+//     h2 {
+//         text-align: center;
+//     }
 
-    .register {
-        height: 30px;
-        width: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 0.3rem;
-    }
+//     .register {
+//         height: 30px;
+//         width: 100px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         margin-bottom: 0.3rem;
+//     }
 
-    .home-btn {
-        height: 30px;
-        width: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
+//     .home-btn {
+//         height: 30px;
+//         width: 100px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//     }
+// }
 
 @font-face {
     font-family: 'Amatic';
