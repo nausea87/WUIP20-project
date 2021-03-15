@@ -7,8 +7,8 @@ const phoneFiller = document.querySelector('#tel');
 
 if (urlParams.has('name')) {
     let name = urlParams.get('name');
-    // let email = urlParams.get('email');
-    welcome.innerText += `Välkommen ${name}`;
+    let email = urlParams.get('email');
+    welcome.innerText += `Välkommen ${name} ${email}`;
     nameFiller.setAttribute('value', name);
 }
 
