@@ -7,29 +7,33 @@
     display: flex;
     width: 100%;
     height: 80vh;
+    background-color: var(--full-page-color); 
    
-    background-color: var(--full-page-color);
+   h1.personal-greeting {
+      position: absolute;
+      text-align: center;
+      font-family: 'Segoe UI';
+      font-size: 22px;
+      margin: 25px;
+      border: 1px solid black;
+      border-radius: 2px;  
+   }
 
     .text-box {
         display: block;
-        height: 375px;
+        // height: 375px;
         margin-top: 50px;
         margin-bottom: 20px;
         margin-left: 50%;   
         margin-right: 10%;
         border: 1px solid black;
         border-radius: 5px;
-     
-
-        h1.personal-greeting {
+        
+        h1 {
+            font-size: 60px;
             text-align: center;
-            font-family: 'Segoe UI';
-            font-size: 24px;
-           
-            padding-bottom: 2rem;
-            
         }
-
+     
         p {
             margin-left: 1rem;
             margin-right: 0.8rem;
@@ -38,66 +42,51 @@
        
     }
 
-    // .btn {
-    //     position: absolute;
-    //     margin-top: 25vh;
-    //     margin-left: 25vw;
-    //     border: solid 3px black;
-    //     border-radius: 10px;
-    //     font-family: 'DM Mono', monospace;
-    //     width: 218px;
-    //     height: 59px;
-
-    //     #biljetter-btn {
-    //         font-size: 24px;
-    //     }
-    // }
-
-    img {
+     img {
         position: absolute;
-        margin-top: 30vh;
-        margin-left: 20px;
+        margin-top: 25vh;
+        margin-left: 50px;
         width: 40vw;
         height: 315px;
+        border: 1px solid black;
     }
 }
+
 // MOBILE VIEW //
 
 @media (max-width: 980px) {
     .full-page-item-two {
         height: 60vh;
-        width: 100%;
+        width: 100;
+
+        h1.personal-greeting {
+            text-align: center;
+            font-size: 14px;
+            margin: 10px;
+          
+        }
+
         .text-box {
             height: 58%;
             margin: 1rem 2rem 1rem 1rem;
-            opacity: 1;
-         
-
-            h1.personal-greeting {
-                text-align: center;
-                font-size: 18px;
-                margin: 0;
+          
+     
+            h1 {
+                font-size: 2rem;
+               
             }
-
-            // h2 {
-            //     font: normal normal 600 12px/16px Segoe UI;
-            //     letter-spacing: 0;
-            //     opacity: 1;
-            //     margin-left: 1rem;
-            //     margin-right: 0.8rem;
-            // }
-
+         
             p {
                 font: normal normal normal 12px/18px Segoe UI;
                 letter-spacing: 0px;
-                opacity: 1;
+              
             }
         }
 
         img {
-            margin-left: 10px;
+            margin-left: 1rem;
             margin-top: 30vh;
-            width: 325px;
+            width: 333px;
             height: 250px;
         }
     }
