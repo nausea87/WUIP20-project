@@ -45,6 +45,9 @@
                 <span class="block-reveal welcome">
                     <span class="text dynamic-name"></span>
                 </span>
+                <span class="block-reveal welcome">
+                    <span class="text animal"></span>
+                </span>
             </h1>
             <img
                 class="hare-and-fox-img"
@@ -77,36 +80,44 @@
             />
             <div class="text-box" id="full-page-text">
                 <h1>Anmälan</h1>
-
                 <form action="index.html" method="get">
-                    <label for="name">name: </label>
+                    <label for="name">förnamn: </label>
                     <input
                         type="name"
                         id="name"
                         name="name"
                         width="100px"
-                        placeholder="What's your name?"
+                        placeholder="Vad är ditt förnamn?"
                     />
                     <br />
-                    <label for="email">e-mail:</label>
+
+                    <!--Temporary fix. Read more in query.js -->
+                    <label for="email">efternamn:</label>
                     <input
-                        type="email"
+                        type="name"
                         id="email"
                         name="email"
-                        placeholder="example@example.com"
+                        width="100px"
+                        placeholder="Vad är ditt efternamn?"
                     />
                     <br />
-                    <!-- <label for="animal">animal:</label>
+                    <label for="animal">animal:</label>
                     <input
-                        type="animal"
+                        type="name"
                         id="animal"
                         name="animal"
-                        placeholder="Vilket är ditt favoritdjur?"
-                    /> -->
+                        width="100px"
+                        placeholder="Vad är ditt favoritdjur?"
+                    /><br />
                     <button class="register-button" type="submit">
                         Register
                     </button>
                 </form>
+                <img
+                    class="gris"
+                    src="./assets/images/svg/gris.svg"
+                    alt="gris"
+                />
             </div>
         </div>
         <footer>

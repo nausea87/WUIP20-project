@@ -4,8 +4,10 @@
      document.title = i++ % 2 == 0 ? 'Welcome to...' : "Skogsfesten 2022";
  }, 3000);
 
-  //FOOTER SOCIAL MEDIA AUTO TYPE STUFF
- var TxtRotate = function(el, toRotate, period) {
+
+
+  //FOOTER SOCIAL MEDIA AUTO-TYPE
+ const TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
@@ -16,8 +18,8 @@
   };
   
   TxtRotate.prototype.tick = function() {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
+    let i = this.loopNum % this.toRotate.length;
+    let fullTxt = this.toRotate[i];
   
     if (this.isDeleting) {
       this.txt = fullTxt.substring(0, this.txt.length - 1);
@@ -27,8 +29,8 @@
   
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
   
-    var that = this;
-    var delta = 300 - Math.random() * 100;
+    let that = this;
+    let delta = 300 - Math.random() * 100;
   
     if (this.isDeleting) { delta /= 2; }
   
@@ -47,10 +49,10 @@
   };
   
   window.onload = function() {
-    var elements = document.getElementsByClassName('txt-rotate');
+    let elements = document.getElementsByClassName('txt-rotate');
     for (var i=0; i<elements.length; i++) {
-      var toRotate = elements[i].getAttribute('data-rotate');
-      var period = elements[i].getAttribute('data-period');
+      let toRotate = elements[i].getAttribute('data-rotate');
+      let period = elements[i].getAttribute('data-period');
       if (toRotate) {
         new TxtRotate(elements[i], JSON.parse(toRotate), period);
       }

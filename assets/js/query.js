@@ -1,29 +1,51 @@
 let urlParams = new URLSearchParams(window.location.search);
 
 const welcome = document.querySelector('.welcome');
-const nameFiller = document.querySelector('#name'); 
+const nameFiller = document.querySelector('#name');
+
 // const emailFiller = document.querySelector('#email'); // Doesn't do anything atm.
-const phoneFiller = document.querySelector('#tel');
+// const phoneFiller = document.querySelector('#tel');
 
 if (urlParams.has('name')) {
     let name = urlParams.get('name');
-    let email = urlParams.get('email');
-    // let animal = urlParams.get('animal');
+    let email = urlParams.get('email');    
+
+    // Email here is actually the lastname, due to me explaining poorly, and Evelina had already finished
+    // the QR codes with the lastnames inside email parameters :) 
+    // This is a temporary fix for making it 'look right'.
+
+    // TLDR; Email param is used as lastname.
     welcome.innerText += `Välkommen ${name} ${email}`;
     nameFiller.setAttribute('value', name);
 }
+
+const favAnimal = document.querySelector('#animal'); 
+
+if(urlParams.has('animal')) {
+
+  
+  let animal = urlParams.get('animal');
+  welcome.innerText += ` the ${animal}`;
+}
+
+
+
+
+
+
+// if (urlParams.has('color')) {
+//     let color = urlParams.get('color');
+//     colorFiller.setAttribute('value', color);
+// }
 
 // if (urlParams.has('email')) {
 //     let email = urlParams.get('email');
 //     emailFiller.setAttribute('value', email);
 // }
 
-if (urlParams.has('animal')) {
-    let animal = urlParams.get('animal');
-    phoneFiller.setAttribute('value', animal);
-}
 
-// https://wuip20-project.netlify.app//index.html?name=&email=&tel=
+
+
 
 ////////////////////////////////////////////
 ////////////////////////////////////////////
