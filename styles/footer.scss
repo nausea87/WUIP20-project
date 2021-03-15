@@ -3,11 +3,11 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    height: 35vh;
+    height: 20vh;
     .auto-type {
         display: flex;
         font-family: 'Segoe UI', sans-serif;
-        font-size: 24px;
+        font-size: 20px;
         justify-content: center;
         color: var(--full-page-color);
     }
@@ -29,30 +29,41 @@ footer {
             height: 70px;
             width: 75px;
         }
+        .icon:hover {
+            width: 70px;
+            height: 75px;
+            border: 8px solid #6D7C7C;
+            border-radius: 30px;
+        }
     }
     .footer-info {
-        margin-left: 2rem;
+        position: absolute;
+        margin: 2rem;
         font-size: 0.6rem;
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    .footer-info:hover {
+        font-size: 1rem;
+        
     }
 
     @media (max-width: 980px) {
         height: 20vh;
-
         .auto-type {
             font-size: 0.9rem;
         }
 
         .social-media {
             .icon {
-                width: 60px;
-                height: 60px;
-            }
+                width: 50px;
+                height: 50px;
+            }   
         }
 
         .footer-info {
-            margin-left: 2rem;
+            margin-left: 1rem;
             font-size: 0.5rem;
             color: white;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

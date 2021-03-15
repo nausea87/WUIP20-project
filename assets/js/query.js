@@ -8,6 +8,7 @@ const phoneFiller = document.querySelector('#tel');
 if (urlParams.has('name')) {
     let name = urlParams.get('name');
     let email = urlParams.get('email');
+    // let animal = urlParams.get('animal');
     welcome.innerText += `Välkommen ${name} ${email}`;
     nameFiller.setAttribute('value', name);
 }
@@ -17,10 +18,10 @@ if (urlParams.has('name')) {
 //     emailFiller.setAttribute('value', email);
 // }
 
-// if (urlParams.has('tel')) {
-//     let tel = urlParams.get('tel');
-//     phoneFiller.setAttribute('value', tel);
-// }
+if (urlParams.has('animal')) {
+    let animal = urlParams.get('animal');
+    phoneFiller.setAttribute('value', animal);
+}
 
 // https://wuip20-project.netlify.app//index.html?name=&email=&tel=
 
