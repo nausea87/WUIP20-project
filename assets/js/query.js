@@ -3,9 +3,6 @@ let urlParams = new URLSearchParams(window.location.search);
 const welcome = document.querySelector('.welcome');
 const nameFiller = document.querySelector('#name');
 
-// const emailFiller = document.querySelector('#email'); // Doesn't do anything atm.
-// const phoneFiller = document.querySelector('#tel');
-
 if (urlParams.has('name')) {
     let name = urlParams.get('name');
     let email = urlParams.get('email');    
@@ -16,9 +13,11 @@ if (urlParams.has('name')) {
     // TLDR; Email param is used as lastname.
     welcome.innerText += `Välkommen ${name} ${email}`;
     nameFiller.setAttribute('value', name);
+        
 }
 
 if(urlParams.has('animal')) {
   let animal = urlParams.get('animal');
   welcome.innerText += ` the ${animal}`;
 }
+
