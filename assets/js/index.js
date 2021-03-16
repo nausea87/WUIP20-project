@@ -1,7 +1,7 @@
 // Simple title animation
  let i = 0;
  setInterval(function () {
-     document.title = i++ % 2 == 0 ? 'Welcome to...' : "Skogsfesten 2022";
+     document.title = i++ % 2 == 0 ? 'Välkommen till...' : "Skogsfesten 2022";
  }, 1500);
 
 
