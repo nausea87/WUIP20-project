@@ -14,7 +14,8 @@
       margin-top: 10vh;
       letter-spacing: 0.3px;
       font-weight: 100;
-      
+      background-color: var(--green);
+           
    }
 
     .text-box {
@@ -24,7 +25,8 @@
         margin-left: 50%;   
         margin-right: 10%;
         border-radius: 5px;
-        
+        border: 1px solid black;
+            
         h1 {
             font-size: 60px;
             text-align: center;
@@ -33,9 +35,8 @@
         p {
             margin-left: 1rem;
             margin-right: 0.8rem;
-            font-size: 18px;
-            
-        }
+            font-size: 20px;
+          }
     }
 
      img {
@@ -59,12 +60,13 @@
             font-size: 14px;
             margin: 10px;
             margin-left: 20vw;
-          
+             
         }
 
         .text-box {
             height: 58%;
             margin: 1rem 2rem 1rem 1rem;
+            border: none;
           
      
             h1 {

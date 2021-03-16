@@ -1,14 +1,6 @@
 html {
     font-size: 18px;
-    // cursor: default; /* 1 */
-    // line-height: 1.5; /* 2 */
-    // -moz-tab-size: 4; /* 3 */
-    // tab-size: 4; /* 3 */
-    // -webkit-tap-highlight-color: transparent /* 4 */;
-    // // -webkit-text-size-adjust: 100%; /* 5 */
-    // word-break: break-word; /* 6 */
-
-    body {
+     body {
         font-family: 'Amatic';
         margin: 0;
 
@@ -26,54 +18,11 @@ html {
     }
 }
 
-// .form {
-//     background-color: var(--full-page-color);
-//     display: flex;
-//     align-items: center;
-//     flex-direction: column;
-//     border-bottom: 1px solid black;
-//     height: 65vh;
-//     width: auto;
-
-//     margin-right: 10px;
-
-//     .gris {
-//         z-index: -1;
-//         position: absolute;
-//         margin: 6rem 2rem 2rem 5rem;
-//         opacity: 100;
-//     }
-
-//     h2 {
-//         text-align: center;
-//     }
-
-//     .register {
-//         height: 30px;
-//         width: 100px;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         margin-bottom: 0.3rem;
-//     }
-
-//     .home-btn {
-//         height: 30px;
-//         width: 100px;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//     }
-// }
-
 @font-face {
     font-family: 'Amatic';
     src: local('Amatic'), url('/assets/fonts/Amatic-Bold.woff2') format('woff2'),
         url('/assets/fonts/Amatic-Bold.woff') format('woff');
-    // font-display: block;
-    // font-weight: 700;
-    // font-style: normal;
-    // font-display: auto;
+  
 }
 
 @font-face {
@@ -81,10 +30,7 @@ html {
     src: local('Amatic'),
         url('/assets/fonts/Amatic-Regular.woff2') format('woff2'),
         url('/assets/fonts/Amatic-Regular.woff') format('woff');
-    // font-display: block;
-    // font-weight: normal;
-    // font-style: normal;
-    // font-display: auto;
+   
 }
 
 * {

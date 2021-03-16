@@ -5,7 +5,6 @@
  }, 3000);
 
 
-
   //FOOTER SOCIAL MEDIA AUTO-TYPE
  const TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;

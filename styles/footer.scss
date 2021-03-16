@@ -46,11 +46,14 @@ footer {
     }
     .footer-info:hover {
         font-size: 1rem;
-        
     }
+}
 
     @media (max-width: 980px) {
+        footer {
         height: 20vh;
+
+
         .auto-type {
             font-size: 0.9rem;
         }
@@ -69,6 +72,11 @@ footer {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
+        .footer-info:hover {
+            font-size: 0.8rem;
+            
+        }
+
         .form-button {
             width: 100px;
             height: 30px;
@@ -77,5 +85,9 @@ footer {
             border: 1px solid black;
             border-radius: 5%;
         }
+        .footer-info:hover {
+            font-size: 0.6rem;
+            
+        }        
     }
-}
+ }
