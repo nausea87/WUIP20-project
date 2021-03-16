@@ -3,11 +3,12 @@ let urlParams = new URLSearchParams(window.location.search);
 const welcome = document.querySelector('.welcome');
 const nameFiller = document.querySelector('#name');
 
-if (urlParams.has('name')) {
+if (urlParams.has('name' && 'email')) {
     let name = urlParams.get('name');
     let email = urlParams.get('email');    
-    // Email here is actually the lastname, due to me explaining poorly, and Evelina had already finished
-    // the QR codes with the lastnames inside email parameters :) 
+    // Email here is actually the lastname, due to me explaining 
+    // poorly, and Evelina had already finished the QR codes
+    // with the lastnames inside email parameters :) 
     // This is a temporary fix for making it 'look right'.
 
     // TLDR; Email param is used as lastname.
@@ -21,5 +22,8 @@ if(urlParams.has('animal')) {
   let animal = urlParams.get('animal');
   favAnimal.innerText += ` the ${animal}`;
 }
+
+//TODO: Post animals like cat,dog, cow etc as an icon.
+
 
 // Phone visible atm for some sort of logic on site.
