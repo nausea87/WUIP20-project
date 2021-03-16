@@ -12,12 +12,14 @@ if (urlParams.has('name')) {
 
     // TLDR; Email param is used as lastname.
     welcome.innerText += `Välkommen ${name} ${email}`;
-    nameFiller.setAttribute('value', name);
-        
+    nameFiller.setAttribute('value', name);   
 }
+
+const favAnimal = document.querySelector('.animal');
 
 if(urlParams.has('animal')) {
   let animal = urlParams.get('animal');
-  welcome.innerText += ` the ${animal}`;
+  favAnimal.innerText += ` the ${animal}`;
 }
 
+// Phone visible atm for some sort of logic on site.
