@@ -75,14 +75,14 @@
           letter-spacing: 0.3px;
           font-weight: 100;
           background-color: var(--green);
-          border: 1px black;
-          border-radius: 2rem;
-          box-shadow: 10px 5px 10px 5px rgba(0,0,0,0.51);           
+        //   border: 1px black;
+        //   border-radius: 2rem;
+        //   box-shadow: 10px 5px 10px 5px rgba(0,0,0,0.51);           
        }
     
-       h1.personal-greeting:hover {
-           font-size: 1.5rem;
-       }
+    //    h1.personal-greeting:hover {
+    //        font-size: 1.5rem;
+    //    }
     
         .text-box {
             // display: block;
@@ -101,6 +101,7 @@
                 text-align: center;
                 margin-left: 0.5rem;
                 margin-right: 0.5rem;
+                font-weight: 100;
             }     
             p {
                 margin-left: 3rem;
@@ -139,6 +140,7 @@
             border: none;    
             h1 {
             font-size: 2rem;
+            font-weight: 100;
             // border: 1px solid black;
             // border-radius: 3px;
             // box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.51);               
