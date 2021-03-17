@@ -1,4 +1,24 @@
-// Header img fadein
+// Header content fade-in
+.date {
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
+}
+
+.title {
+    -webkit-animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    animation: fadein 3s;
+}
+
+.header-info {
+    -webkit-animation: fadein 7s;
+    -moz-animation: fadein 7s;
+    -o-animation: fadein 7s;
+    animation: fadein 7s;
+}
 
 .header-img {
     -webkit-animation: fadein 12s;

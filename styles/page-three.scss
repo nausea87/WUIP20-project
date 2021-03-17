@@ -153,12 +153,12 @@
                 margin-left: 20vw;
             }
             p {
-                font: italic italic italic 12px/18px Segoe UI;
+                font: italic italic italic 12px/18px;
                 font-style: italic;
                 letter-spacing: 0px;
                 opacity: 1;
                 margin-top: 2rem;
-                padding-left: 2.5rem;
+                padding-left: 1rem;
             }
         }
 
@@ -171,6 +171,7 @@
 
         form {
             margin-left: 2.5rem;
+        
             .register-button {
                 width: 100px;
                 height: 25px;
