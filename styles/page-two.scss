@@ -8,16 +8,21 @@
       position: absolute;
       text-align: center;
       font-family: 'Amatic';
-      font-size: 22px;
+      font-size: 34px;
       margin: 25px;
       margin-left: 20vw;
       margin-top: 10vh;
       padding-left: 4px;
       padding-right: 4px;
-      letter-spacing: 0.2px;
+      letter-spacing: 0.3px;
       font-weight: 4rem;
       background-color: var(--green);
-        }
+
+      .vip {
+          background-color: var(--headerandfooter);
+          color: var(--full-page-color);                 
+      }
+   }
 
    .text-box {
         display: block;
@@ -26,11 +31,6 @@
         margin-bottom: 0;
         margin-left: 50%;   
         margin-right: 10%;
-        // border: 1px solid black;
-        // border-radius: 5px;
-        // -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.51);
-        // -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.51);
-        // box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.51);
         h1 {
             font-size: 60px;
             text-align: center;
@@ -42,7 +42,7 @@
             margin-right: 3rem;
             font-size: 18px;
             letter-spacing: 1px;
-          }
+        }
     }
 
      img {
@@ -74,28 +74,16 @@
           padding-right: 4px;
           letter-spacing: 0.3px;
           font-weight: 100;
-          background-color: var(--green);
-        //   border: 1px black;
-        //   border-radius: 2rem;
-        //   box-shadow: 10px 5px 10px 5px rgba(0,0,0,0.51);           
-       }
-    
-    //    h1.personal-greeting:hover {
-    //        font-size: 1.5rem;
-    //    }
+          background-color: var(--green);            
+       } 
     
         .text-box {
-            // display: block;
             height: 70vh;
             margin-top: 20px;
             margin-bottom: 0;
             margin-left: 50%;   
             margin-right: 10%;
-            // border: 1px solid black;
-            // border-radius: 5px;
-            // -webkit-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
-            // -moz-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
-            // box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
+        
             h1 {
                 font-size: 50px;
                 text-align: center;
@@ -121,14 +109,10 @@
     }
 }    
 // MOBILE VIEW //
-
-
 @media (max-width: 980px) {
     .full-page-item-two {
         height: 60vh;
-        // width: 100%;
-        h1.personal-greeting {
-            // text-align: center;
+            h1.personal-greeting {        
             font-family: 'Amatic';
             font-size: 14px;
             margin: 10px;
@@ -140,10 +124,7 @@
             border: none;    
             h1 {
             font-size: 2rem;
-            font-weight: 100;
-            // border: 1px solid black;
-            // border-radius: 3px;
-            // box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.51);               
+            font-weight: 100;                    
             }         
             p {
                 font: normal normal normal 12px/18px Segoe UI;
