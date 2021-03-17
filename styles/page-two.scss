@@ -26,11 +26,11 @@
         margin-bottom: 0;
         margin-left: 50%;   
         margin-right: 10%;
-        border: 1px solid black;
-        border-radius: 5px;
-        -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.51);
-        -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.51);
-        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.51);
+        // border: 1px solid black;
+        // border-radius: 5px;
+        // -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.51);
+        // -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.51);
+        // box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.51);
         h1 {
             font-size: 60px;
             text-align: center;
@@ -91,15 +91,14 @@
             margin-bottom: 0;
             margin-left: 50%;   
             margin-right: 10%;
-            border: 1px solid black;
-            border-radius: 5px;
+            // border: 1px solid black;
+            // border-radius: 5px;
             // -webkit-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
             // -moz-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
             // box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
             h1 {
                 font-size: 50px;
                 text-align: center;
-               
                 margin-left: 0.5rem;
                 margin-right: 0.5rem;
             }     
@@ -127,7 +126,6 @@
     .full-page-item-two {
         height: 60vh;
         // width: 100%;
-
         h1.personal-greeting {
             // text-align: center;
             font-family: 'Amatic';
@@ -135,16 +133,15 @@
             margin: 10px;
             margin-left: 10px;             
         }
-
         .text-box {
             height: 58%;
             margin: 1rem 2rem 1rem 1rem;
             border: none;    
             h1 {
             font-size: 2rem;
-            border: 1px solid black;
-            border-radius: 3px;
-            box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.51);               
+            // border: 1px solid black;
+            // border-radius: 3px;
+            // box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.51);               
             }         
             p {
                 font: normal normal normal 12px/18px Segoe UI;
