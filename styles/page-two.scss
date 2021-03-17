@@ -35,13 +35,12 @@
         margin-right: 10%;
         border: 1px solid black;
         border-radius: 5px;
-        -webkit-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
-        -moz-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
-        box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
+        -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.51);
+        -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.51);
+        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.51);
         h1 {
             font-size: 60px;
             text-align: center;
-            border: 1px solid black;
             border-radius: 4px;
             box-shadow: 3px 3px 4px 3px rgba(0,0,0,0.51);
             margin-left: 0.5rem;
@@ -94,7 +93,7 @@
        }
     
         .text-box {
-            display: block;
+            // display: block;
             height: 70vh;
             margin-top: 20px;
             margin-bottom: 0;
@@ -102,9 +101,9 @@
             margin-right: 10%;
             border: 1px solid black;
             border-radius: 5px;
-            -webkit-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
-            -moz-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
-            box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
+            // -webkit-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
+            // -moz-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
+            // box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.51);
             h1 {
                 font-size: 50px;
                 text-align: center;
@@ -137,10 +136,10 @@
 @media (max-width: 980px) {
     .full-page-item-two {
         height: 60vh;
-        width: 100%;
+        // width: 100%;
 
         h1.personal-greeting {
-            text-align: center;
+            // text-align: center;
             font-size: 14px;
             margin: 10px;
             margin-left: 10px;             
