@@ -74,8 +74,8 @@
 }
 
 .register-button:hover {
-    background-color: #6D7C7C;
-    color: white;
+    background-color: var(--green);
+    color: black;
     text-shadow: 5px black;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
