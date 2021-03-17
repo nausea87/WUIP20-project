@@ -7,15 +7,15 @@
    h1.personal-greeting {
       position: absolute;
       text-align: center;
-      font-family: 'Segoe UI';
+      font-family: 'Amatic';
       font-size: 22px;
       margin: 25px;
       margin-left: 20vw;
       margin-top: 10vh;
       padding-left: 4px;
       padding-right: 4px;
-      letter-spacing: 0.3px;
-      font-weight: 100;
+      letter-spacing: 0.2px;
+      font-weight: 4rem;
       background-color: var(--green);
       border: 1px black;
       border-radius: 2rem;
@@ -41,8 +41,6 @@
         h1 {
             font-size: 60px;
             text-align: center;
-            border-radius: 4px;
-            box-shadow: 3px 3px 4px 3px rgba(0,0,0,0.51);
             margin-left: 0.5rem;
             margin-right: 0.5rem;
         }     
@@ -73,8 +71,9 @@
        h1.personal-greeting {
           position: absolute;
           text-align: center;
-          font-family: 'Segoe UI';
+          font-family: 'Amatic';
           font-size: 22px;
+          font-weight: 5rem;
           margin: 25px;
           margin-left: 20vw;
           margin-top: 10vh;
@@ -107,9 +106,7 @@
             h1 {
                 font-size: 50px;
                 text-align: center;
-                border: 1px solid black;
-                border-radius: 4px;
-                box-shadow: 3px 3px 4px 3px rgba(0,0,0,0.51);
+               
                 margin-left: 0.5rem;
                 margin-right: 0.5rem;
             }     
@@ -140,6 +137,7 @@
 
         h1.personal-greeting {
             // text-align: center;
+            font-family: 'Amatic';
             font-size: 14px;
             margin: 10px;
             margin-left: 10px;             
