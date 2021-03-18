@@ -63,8 +63,6 @@
         opacity: 1;
     }
 }
-
-
 // Button hover  //
 
 .register-button {
@@ -81,9 +79,7 @@
 
 // VIP status
 .vip {
-    background-color: var(--headerandfooter);
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
+    background-color: var(--headerandfooter);  
     color: var(--full-page-color);
     border-radius: 4px;
     animation: infinite;
