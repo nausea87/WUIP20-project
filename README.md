@@ -16,7 +16,8 @@ Project with Evelina Bakos from IP Graphical Production & FORM at YRGO. Assignme
 
 ## Contributors
 
--   [Erik White] (WU) -[Evelina Bakos] (IP)
+-   [Erik White] (WU) 
+- [Evelina Bakos] (IP)
 
 ## License
 
