@@ -8,16 +8,11 @@ Project with Evelina Bakos from IP Graphical Production & FORM at YRGO. Assignme
 
 ## Code review
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+- great job splitting your js/ scss files, maybe you could've made separate files for media queries and animations for easier access
+- the button doesn't have pointer cursor on hover
+- the social media links aren't really links...I really wanted to click on them :') 
+- text in footer overflows/ isn't really readable in desktop view
+- nice work with the svgs, the site looks great :)
 
 ## Contributors
 
