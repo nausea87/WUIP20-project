@@ -64,9 +64,8 @@
     }
 }
 
-//////////////////////
-////// Button ////////
-//////////////////////
+
+// Button hover  //
 
 .register-button {
     opacity: 1;
@@ -78,4 +77,29 @@
     color: black;
     text-shadow: 5px black;
     font-size: 0.8rem;
+}
+
+// VIP status
+.vip {
+    background-color: var(--headerandfooter);
+    color: var(--full-page-color);
+    border-radius: 4px;
+    animation: infinite;
+    animation-name: vip;
+    animation-duration: 8s;     
+    
+    @keyframes vip {
+      0% {
+          color: var(--headerandfooter);
+        }
+      33% {
+          color: var(--green);
+      }
+      66% {
+          color: var(--green);
+      }      
+      100% {
+          color: var(--headerandfooter);
+      }       
+    }
 }

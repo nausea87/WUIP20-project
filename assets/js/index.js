@@ -4,8 +4,7 @@
      document.title = i++ % 2 == 0 ? 'Välkommen till...' : "Skogsfesten 2022";
  }, 1500);
 
-
-  //FOOTER SOCIAL MEDIA AUTO-TYPE
+ //FOOTER SOCIAL MEDIA AUTO-TYPE
  const TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
